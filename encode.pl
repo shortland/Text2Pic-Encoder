@@ -97,4 +97,4 @@ foreach my $character (@characters)
     $i++;
 }
 
-$image->write(file=>'output.ico') or die 'Cannot save output.png: ', $image->errstr;
+$image->write(file=>'output.ico') or die 'Cannot save output.ico: ', $image->errstr;
